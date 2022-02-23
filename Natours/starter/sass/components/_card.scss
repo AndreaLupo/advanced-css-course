@@ -37,7 +37,7 @@
             }
 
             &-3 {
-                background-image: linear-gradient(to right bottom, $color-terziary-light, $color-terziary-dark);
+                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
             }
         }
     }
@@ -76,7 +76,7 @@
 
         &--3 {
             // relative to the position of the compiled css
-            background-image: linear-gradient(to right bottom, $color-terziary-light, $color-terziary-dark),
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark),
                  url(../img/nat-7.jpg);
         }
     }
@@ -115,8 +115,8 @@
 
         &--3 {
             background-image: linear-gradient(to right bottom, 
-                rgba($color-terziary-light, .85),
-                rgba($color-terziary-dark, .85)
+                rgba($color-tertiary-light, .85),
+                rgba($color-tertiary-dark, .85)
             );
         }
     }
