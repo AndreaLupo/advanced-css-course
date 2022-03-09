@@ -1,3 +1,19 @@
+/*
+0 - 600px: Phone
+600 - 900px: tablet portrait
+900 - 1200px: tablet landscape
+1200 - 1800px: desktop
+1800px: big desktop
+*/
+/*
+Breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+1em = 16px
+*/
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -8,6 +24,15 @@ html {
     with percentage, user can change the font-size in their browser and it's maintained.
     */
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
